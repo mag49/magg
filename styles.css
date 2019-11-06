@@ -17,13 +17,16 @@
     background-color:burlywood;
 }
 nav{
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 10px 0;
-    margin-right:right 0%;
+    width: 100%;
+    padding: 10px;
+    top:0;
+    left:0;
+    display:flex;
+    position:fixed;
+    margin-left: 30%;
 }
 nav>ul>li{
-    display:inline-block;
+    display:inline;
 }
 nav>ul>li>a{
     padding:20px;
@@ -35,44 +38,64 @@ nav>ul>li>a{
 nav>ul>li>a:hover{
     box-shadow:0 0 10px purple, inset 0 0 2px;
     background-color:purple;
-    color:orangered;
+    color:orange;
 }
 .header{
     background-color:white;
-    height:50%;
-    font-size: 30px;
-    padding: 40px
+    height:30%;
+    font-size: 20px;
+    padding: 15px;
+    color:black;
 }
 #one{
     margin-left:2%
 }
 #categories{
     text-align: center;
+    padding-top: 100px;
 }
 li{
     color:black;
 }
 #services{
-    text-align: center;
+    padding-top:10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
 }
-ul{
-    text-align: center
+
+#contacts{
+    padding-top: 10%;
+    font-size:30px;
 }
+
+
 #about{
     text-align: center;
+    padding-top: 10%;
+    font-size: 30px;
+    color:purple;
 }
 table{
     text-align: center;
     display:block;
-    margin-left:800px;
+    margin-left:610px;
     border-spacing:5px;
+    
 }
 tr,td,th{
     border:2px solid black;
+    padding-top:100px;
+    background-color: aliceblue;
+    color:blueviolet;
 }
 p{
     margin-top:5px;
     margin-bottom:10px;
+    font-size: 30px;
+    color:blue;
+    font-family: 'Times New Roman', Times, serif;
 }
 h2{
     color:purple;
@@ -81,12 +104,25 @@ h2{
     border-radius: 20px;
     width:200px;
     margin-left:45%;
+    background-color: white;
+    font-family:'lucida sans';
 }
 
 
-
-
-
+.active{
+    box-shadow:0 0 10px purple, inset 0 0 2px;
+    background-color:purple;
+    color:orange;
+}
+h3{
+    font-weight:bold;
+    color:blue;
+    font-family:Georgia, sans-serif;
+    font-size:20px;
+}
+#services >ol>li{
+    color:purple;
+}
 
 
 
