@@ -104,7 +104,6 @@ li{
     color:purple;
 }
 table{
-    text-align: center;
     display:block;
     margin-left: 20%;
     border-spacing:5px;
@@ -133,7 +132,6 @@ h2{
     margin-left:45%;
     background-color: white;
     font-family:'lucida sans';
-    text-align: center;
 }
 
 
@@ -163,7 +161,6 @@ h3{
     box-shadow: 0 4px 8px 0 white;
     max-width: 350px;
     margin: auto;
-    text-align: center;
     font-family: aerial;
 }
 .card button{
@@ -172,7 +169,6 @@ h3{
     padding: 20px;
     color: black;
     background-color:grey;
-    text-align: center;
     cursor:pointer;
     width:100%;
     font-size:18px;
@@ -228,7 +224,6 @@ h3{
     
 }
 #office-wear{
-text-align: center;
 margin-top: 200px;
 margin-bottom: 50px; 
 border:5px solid;
@@ -236,11 +231,12 @@ width:300px;
 margin-left:40%;
 padding:1px; 
 background-color: aliceblue; 
-font-family: 'Times New Roman', Times, serif; 
+font-family: 'Times New Roman', Times, serif;
+text-align: start; 
 }
 #casual-wear > h1{
+    text-align: left;
     margin-top: 50px;
-    text-align: center;
     border:5px solid;
     padding:18px;
     width:300px;
@@ -249,9 +245,16 @@ font-family: 'Times New Roman', Times, serif;
     font-family: 'Times New Roman', Times, serif;
 }
 #categories{
-    text-align: center;
-    padding-top: 150px;
+    display: flex;
+    flex-direction: row;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 200px;
+}
+#category2{
+    display:flex;
+    flex-direction: row;
+    font-family:helvetica;
+    margin-top:50px;
 }
 .shoes-wear > h1{
     text-align: center;
@@ -264,7 +267,7 @@ font-family: 'Times New Roman', Times, serif;
     font-family: 'Times New Roman', Times, serif
 }
 .african-wear >h1{
-    text-align: center;
+    text-align: justify;
     margin-top:50px;
     border:5px solid;
     padding:18px;
@@ -272,6 +275,18 @@ font-family: 'Times New Roman', Times, serif;
     margin-left:40%;
     background-color: aliceblue;
     font-family: 'Times New Roman', Times, serif;
+}
+.category-item1{
+    margin-left: 10%
+}
+.category-item2{
+    margin-left:8%;
+}
+.category-item3{
+    margin-left:10%;
+}
+.category-item4{
+    margin-left: 8%;
 }
 
 
